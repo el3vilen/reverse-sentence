@@ -1,11 +1,23 @@
 {
-  "name": "reverse-sentence",
-  "version": "0.1.0",
-  "description": "Reverses a sentence.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Adam Maslach",
-  "license": "MIT"
+    "name": "@el3vilen/reverse-sentence",
+    "version": "0.1.0",
+    "description": "Reverses a sentence.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "./node_modules/prettier/bin-prettier.js . --write"
+    },
+    "author": "Adam Maslach",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/el3vilen/reverse-sentence.git"
+    },
+    "bugs": {
+        "url": "https://github.com/el3vilen/reverse-sentence/issues"
+    },
+    "homepage": "https://github.com/el3vilen/reverse-sentence#readme",
+    "devDependencies": {
+        "prettier": "2.5.1"
+    }
 }
